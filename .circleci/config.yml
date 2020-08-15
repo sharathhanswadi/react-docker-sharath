@@ -10,7 +10,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: npm install
+          command: curl ifconfig.me
 #      - run:
 #          name: commit lint
 #          command: yarn commitlint-circle
